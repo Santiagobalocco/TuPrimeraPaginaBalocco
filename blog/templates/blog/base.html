@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mi Blog{% endblock %}</title>
+</head>
+<body>
+    <h1>Blog</h1>
+    <nav>
+        <a href="{% url 'home' %}">Inicio</a> |
+        <a href="{% url 'crear_autor' %}">Nuevo Autor</a> |
+        <a href="{% url 'crear_categoria' %}">Nueva Categoría</a> |
+        <a href="{% url 'crear_articulo' %}">Nuevo Artículo</a> |
+        <a href="{% url 'buscar_articulo' %}">Buscar</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
