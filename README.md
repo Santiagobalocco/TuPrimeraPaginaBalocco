@@ -3,7 +3,7 @@
 
 - Python 
 - Django 
-- HTML5 + CSS3 (básico)
+- HTML(básico)
 
 - Herencia de plantillas con "base.html"
 - Tres modelos: Post, Autor, Categoría  
