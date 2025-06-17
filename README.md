@@ -13,5 +13,5 @@
 
 - La base de datos es SQLite (por defecto de Django)
 - Las plantillas están en la carpeta "/templates"
-- Todas las funcionalidades están en la app "mi_blog"
+- Todas las funcionalidades están en la app "blog"
 
